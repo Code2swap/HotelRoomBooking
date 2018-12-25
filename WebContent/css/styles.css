@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+
+table {
+	width: 400px;
+	/* height: 200px; */
+	table-layout: fixed;
+	border-collapse: collapse;
+	/* border-collapse : separate; */
+}
+
+td {
+	height: 30px;
+}
+
+td.tableBtn {
+	text-align: center;
+}
+
+.btn {
+	border: none;
+}
+
+input {
+	display: table-cell;
+	height: 100%;
+	width: 97%;
+}
